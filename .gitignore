@@ -1,0 +1,23 @@
+﻿# --- CREDENCIALES ----------------------------------------------------
+# config.h contiene las credenciales WiFi y la URL del servidor.
+# Nunca se sube al repositorio. Usa config.h.example como plantilla.
+config/config.h
+
+# --- PLATFORMIO ------------------------------------------------------
+# Carpeta generada automaticamente por PlatformIO al compilar.
+# Contiene binarios, caches y dependencias descargadas.
+# Se regenera sola al hacer Build.
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# --- VSCODE ----------------------------------------------------------
+# Configuracion local del editor. Cada desarrollador tiene la suya.
+# Incluye rutas absolutas del sistema que no son portables.
+.vscode/
+
+# --- SISTEMA OPERATIVO -----------------------------------------------
+# Ficheros generados por macOS y Windows que no forman parte del proyecto.
+.DS_Store
+Thumbs.db
+desktop.ini
